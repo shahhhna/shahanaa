@@ -1,0 +1,89 @@
+
+body {
+  
+    background-color: #000 !important;
+  font-family: 'Segoe UI', sans-serif;
+ 
+  color: #333;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.glass-nav {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.profile {
+  height: 100vh; 
+  background: url('bg.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 70px; 
+}
+
+
+
+
+
+.glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+
+.project-card {
+  background: rgba(255, 255, 255, 0.95);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#certificates img {
+  transition: transform 0.3s ease;
+}
+
+#certificates img:hover {
+  transform: scale(1.03);
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: white;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#contact h2,
+#contact label,
+#contact {
+  color: #000 ;
+}
